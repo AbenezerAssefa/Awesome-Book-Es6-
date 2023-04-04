@@ -1,0 +1,142 @@
+/* css reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Comic Neue', cursive;
+  background-color: rgb(199, 174, 101);
+}
+
+main {
+  width: 70%;
+  margin: 1rem auto;
+  text-align: center;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem;
+  margin: 0.5rem;
+  border: 2px solid black;
+}
+
+.navigation ul {
+  padding-left: 0;
+  display: flex;
+  list-style-type: none;
+}
+
+.navigation ul li {
+  display: inline;
+  border-right: solid 2px black;
+  padding: 0 0.5rem;
+}
+
+.book-list ul li {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem;
+  align-items: center;
+}
+
+.navigation ul li:last-child {
+  border-right: none;
+}
+
+.navigation ul li a {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+
+.navigation ul li a:hover {
+  color: lightblue;
+}
+
+.book-list ul {
+  margin: 1rem auto;
+  border: 2px solid black;
+}
+
+.book-list ul li:nth-child(odd) {
+  background-color: #e4dcdc;
+}
+
+button {
+  padding: 0.3rem;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.hr {
+  border: 1px solid black;
+  max-width: 40%;
+  margin: 1rem auto;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+  gap: 0.8rem;
+  align-items: center;
+  min-height: 10vh;
+}
+
+.form-control {
+  border: 1px solid black;
+  padding: 0.5rem;
+  width: 60%;
+}
+
+.w-60 {
+  width: 60%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+/*
+CONTACT SECTION
+*/
+
+#contact {
+  width: 60%;
+  margin: 2rem auto 0;
+}
+
+.contact-h2 {
+  margin-bottom: 2rem;
+}
+
+#contact p {
+  text-align: left;
+  margin-bottom: 1.5rem;
+}
+
+.contact-list {
+  text-align: left;
+  list-style-position: inside;
+  padding-left: 2rem;
+}
+
+.time {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0 0.5rem;
+  margin: 0 0.5rem;
+  font-weight: 500;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  margin: 1.5rem 1rem;
+  border: 2px solid black;
+}

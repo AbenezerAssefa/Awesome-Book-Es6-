@@ -67,7 +67,7 @@ I find the following features to be intresting::
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-[Link to live demo](https://abenezerassefa.github.io/Awsome-Books-Js/)
+<!-- [Link to live demo](https://abenezerassefa.github.io/Awsome-Books-Js/) -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -87,10 +87,10 @@ In order to run this project you need:
 
 Clone this repository to your desired folder:
 
-```sh
+````sh
   cd my-folder
-  git clone https://github.com/AbenezerAssefa/Awsome-Books-Js.git
-```
+#   git clone https://github.com/AbenezerAssefa/Awsome-Books-Js.git
+# ```
 
 ### Install
 
@@ -99,7 +99,7 @@ Install this project with:
 ```sh
   cd Awsome-Books-Js
   code .
-```
+````
 
 ### Usage
 
@@ -121,7 +121,7 @@ Example command:
 
 ### Deployment
 
-- https://abenezerassefa.github.io/Awsome-Books-Js/
+<!-- - https://abenezerassefa.github.io/Awsome-Books-Js/ -->
 
 <!--
 Example:
